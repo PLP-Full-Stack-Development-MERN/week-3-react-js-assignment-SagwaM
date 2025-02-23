@@ -1,0 +1,106 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f4;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* App Container */
+.app-container {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.header h1 {
+  font-size: 2rem;
+}
+
+/* Profile Card */
+.profile-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fafafa;
+}
+
+.profile-card h2 {
+  margin-bottom: 10px;
+  color: #4CAF50;
+}
+
+.profile-card p {
+  margin: 5px 0;
+}
+
+/* Counter Card */
+.counter-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  background-color: #fafafa;
+  text-align: center;
+}
+
+.counter-card h2 {
+  margin-bottom: 10px;
+  color: #4CAF50;
+}
+
+.count-display {
+  font-size: 1.5rem;
+  margin: 15px 0;
+}
+
+.counter-card button {
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.counter-card button:hover {
+  background-color: #45a049;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .app-container {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .header h1 {
+    font-size: 1.5rem;
+  }
+
+  .count-display {
+    font-size: 1.2rem;
+  }
+}
